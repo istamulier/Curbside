@@ -10,10 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_24_000408) do
+ActiveRecord::Schema.define(version: 2020_06_24_011438) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "claps", force: :cascade do |t|
+    t.integer "story_id", null: false
+    t.integer "clapper_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["clapper_id"], name: "index_claps_on_clapper_id"
+    t.index ["story_id"], name: "index_claps_on_story_id"
+  end
+
+  create_table "stories", force: :cascade do |t|
+    t.string "title", null: false
+    t.text "body", null: false
+    t.integer "author_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "username", null: false
