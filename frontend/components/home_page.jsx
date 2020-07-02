@@ -10,7 +10,7 @@ constructor(props) {
 render () { if (5<10) {
   return (
     <div>
-      <h1> Writings by and for Oakland's Unhoused Communities. </h1>
+      <h1 className="openhead"> Writings by and for Oakland's Unhoused Communities. </h1>
       <h3> Select housing and economic justice projects you're interested in, and find readings related to each. </h3>
       
       
@@ -48,7 +48,27 @@ render () { if (5<10) {
         <div class="column"> <div className="col1"><Link to="/signup"><button type="button" className="homepage-signup-button-2">Get Started</button></Link></div></div>
         <div class="column">We do things differently.<div className="wediff">At Curbside, we believe the most important voices regarding the Bay's housing crisis and its solutions are those of unhoused people themselves, and other folks whose knowedge of homelessness comes from lived experiences and not ivory tower degrees. Curbside collates and archives a diversity of voices from Oaklanders who are unhoused, formerly unhoused, and/or precariously housed individuals in solidarity with their unhoused neighbors. We take inspiration from other unhoused-led publications like Street Spirit, Street Sheet, and honor the wisdom and power of the Oakland's curbside communities. </div></div>
       </div>
+    <div className="linebreak">_____________________________________________</div>
+    <div class="row2">
+      <div class="column2">Over 4,000 Oaklanders<br></br>are currently<br></br>homeless. </div>
+        <div className="column3"><div className="qmark">"</div>In Oakland, the Bay Area’s deep-rooted housing crisis is starkly visible. In makeshift encampments, the city's homeless live in tents, old cars, and mobile homes clustered together in parking lots. Vacant houses, all chipped paint and rotting wood, stand feet away from newly renovated properties that tech industry transplants would swoop up in a heartbeat.
+        <br></br>
+        <br></br>
+        Rachel Hahn
+        </div>
+    </div>
+    <div className="onearchiveheader"> One archive. Unlimited solidarity. </div>
+    <div className="onearchive"><br></br>Read stories from multiple liberation projects throughout Oakland.<br></br>Join now: We all do better when we all do better.</div>
+      <div className="linebreak">_____________________________________________</div>
+      <div className="lastheadline">Difference isn't our deficit;<br></br>it's our operating system.</div>
+      <Link to="/signup"><button type="button" className="homepage-signup-button-3">Get Started</button></Link>
     
+      <div className="navbar-bottom">
+        <a href="#/"><img src="http://lettersandnumbers.org/freealphabetletters/black/alphabet_letter_c.jpg" width="70" height="70"></img></a>
+        <a href="http://www.37mlk.com">Read more about 37MLK, a curbside community founded by this site's developer</a>
+        <a href="#contact">Contact 37MLK or this site's developer.</a>
+        <a href="http://www.facebook.com/37MLKgarden"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" width="57" height="57"></img></a>
+      </div>
     
     </div>
 
