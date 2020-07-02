@@ -25,7 +25,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --mode=development --watch"
+    "webpack": "webpack --mode=development --watch",
+    "postinstall": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +34,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/istamulier/Curbside.git"
+  },
+  "engines": {
+    "node": "12.5.0",
+    "npm": "6.9.0"
   },
   "bugs": {
     "url": "https://github.com/istamulier/Curbside/issues"

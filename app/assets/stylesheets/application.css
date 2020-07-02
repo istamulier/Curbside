@@ -29,9 +29,16 @@
      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
  }
 
-  body {
+  .body {
     font-family: 'Abel', sans-serif;
     padding-top: 12px;
+    text-align: center;
+    align-items:center;
+    margin:auto;
+  }
+
+  a {
+    text-align: center;
   }
 
  .content {
@@ -42,20 +49,21 @@
    display: flex;
    justify-content: center;
  }
- header {
+ /* header {
    margin-left: 5%;
- }
+ } */
 
 
 
- .header-name {
+ /* .header-name {
    margin: 7px 0 0 0;
 
- }
+ } */
 
  
  h1, h5 {
    margin-bottom: 0px;
+   margin:auto;
  }
 
  
@@ -71,7 +79,10 @@
    flex-direction: column;
  }
 
-
+ p {
+   justify-content: center;
+   margin:auto;
+ }
 
  
 
@@ -116,6 +127,9 @@
  .login-signup {
   background-color: white;
   overflow: hidden;
+  display:inline;
+  justify-content: center;
+
  }
 
  .navbar-ul {
@@ -127,6 +141,121 @@
    width: 95%;
  }
 
+
+
  .navbar-li {
    float: right;
+   padding-top: 35px;
+   color:black;
  }
+
+ .navbar-li-1 {
+   float: right;
+   padding-top: 20px;
+ }
+
+ .greenfist {
+   vertical-align: middle;
+ }
+
+ .greenfistbar {
+   font-size: 30px;
+ }
+
+ .noprofitheader {
+   font-size: 50;
+   text-align: left;
+   font-size: 100px;
+   font-family: sans-serif;
+ }
+ .row {
+  display:flex;
+  padding-top: 100px;
+ }
+
+ .column {
+   flex:50%;
+   font-size: 25px;
+   text-align: left;
+   font-weight: bold;
+   font-family: sans-serif;
+ }
+
+.wediff {
+  padding-top: 40px;
+  font-size: 25px;
+  color:grey;
+  text-align: left;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+ .noprofit {
+   padding-top: 25px;
+   font-size: 25;
+   text-align:left;
+   color:gray;
+   font-size: 25px;
+   font-family: sans-serif;
+ }
+ .navbar-li-logo {
+  float: left;
+  padding-top:10px;
+  font-size: 30px;
+  color:black;
+  font-family: 'Lucida Sans';
+ }
+
+ .homepage-signup-button {
+   justify-content: center;
+   height: 63px;
+   width: 339px;
+   font-size: 24px;
+   align-items:center;
+   
+ }
+
+  .homepage-signup-button-2 {
+   justify-content: center;
+   height: 63px;
+   width: 339px;
+   font-size: 24px;
+   align-items:center;
+   
+ }
+
+ .col1 {
+   padding-top: 200px;
+ }
+
+ .button-container {
+   padding-left: 75px;
+    width: 810px;
+    background: white;
+    overflow-y: auto;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    align-items:center;
+    align-self:center;
+    margin:auto;
+   
+    
+}
+
+div {
+  text-align:center;
+}
+
+.button-container > a {
+    width: 120px;
+    height: 15px;
+    float: left;
+    background: lightgray;   
+    margin: 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    display: auto;
+    align-items:center;
+}
