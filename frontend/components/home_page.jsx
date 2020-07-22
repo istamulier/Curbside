@@ -41,7 +41,7 @@ render () { if (5<10) {
     
       <h4>Already have an account? <Link to="/login">Sign In</Link></h4>
 
-      <h3 className="greenfistbar">  Articles on the housing crisis   <img className="greenfist" src="https://www.iconspng.com/uploads/eco-green-power-icon/eco-green-power-icon.png" width="38" height="38" />    By those most impacted  <img className="greenfist" src="https://www.iconspng.com/uploads/eco-green-power-icon/eco-green-power-icon.png" width="38" height="38"/>  An archive of solidarity </h3>
+      <h3 className="greenfistbar">  Articles on the housing crisis   <img className="greenfist" src="https://www.iconspng.com/uploads/eco-green-power-icon/eco-green-power-icon.png" width="38" height="38" />    By those most impacted  <img className="greenfist" src="https://www.iconspng.com/uploads/eco-green-power-icon/eco-green-power-icon.png" width="39" height="38"/>  An archive of solidarity </h3>
       <div className="noprofitheader">People over profit.</div>
       <div className="noprofit">We don't charge membership, target you with ads, or sell your data. Ever.</div>
       <div class="row">
